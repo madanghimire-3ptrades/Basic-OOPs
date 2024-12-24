@@ -133,6 +133,10 @@ namespace BasicOOPSRevise
             Console.WriteLine("\n6. Property Overriding:");
             Console.WriteLine($"Dog species: {dog.Species}");
 
+            Console.WriteLine("\n Interface and Abstract class Demo");
+            IPaymentProcessor payment = new CreditCardPayment();
+
+            payment.ProcessPayment(100.00m);
 
 
 
