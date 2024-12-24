@@ -45,7 +45,11 @@
   <ItemGroup>
     <Compile Include="Interfaces\IPayable.cs" />
     <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\Animal.cs" />
     <Compile Include="Models\BankAccount.cs" />
+    <Compile Include="Models\Bird.cs" />
+    <Compile Include="Models\Cat.cs" />
+    <Compile Include="Models\Dog.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Invoice.cs" />
     <Compile Include="Models\Person.cs" />
@@ -65,5 +69,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
