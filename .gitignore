@@ -1,0 +1,54 @@
+# Compiled binary and object files
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Visual Studio and Rider settings
+.vscode/
+.idea/
+.vs/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Tt]est[Rr]esult*/
+
+# Package management
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Auto-generated files
+*.log
+*.tlog
+*.cache
+*.pdb
+*.dll
+*.exe
+*.tmp
+*.csproj.user
+*.psess
+
+# DotNet dependencies
+*.deps.json
+*.runtimeconfig.dev.json
+
+# ASP.NET-specific (if applicable in your future work)
+appsettings.Development.json
+
+# NuGet package directory
+**/packages/*
+!**/packages/build/
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Rider files
